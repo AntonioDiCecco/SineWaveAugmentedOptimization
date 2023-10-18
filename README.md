@@ -21,21 +21,21 @@ SineWaveAugmentedOptimization (SWAO) is a state-of-the-art optimization algorith
 
 After running the SWAO algorithm 100 times, here are the results:
 
-\`\`\`
+
 Differential Evolution failed 0 times out of 100 runs.
 Particle Swarm failed 26 times out of 100 runs.
 SineWaveAugmentedOptimization failed 0 times out of 100 runs.
-\`\`\`
+
 
 As you can see, SWAO not only has zero failures but also outperforms the well-known Particle Swarm Optimization (PSO) algorithm, making it significantly more stable and reliable.
 
 ## Algorithm Code
 
-\`\`\`python
+
 # SineWaveAugmentedOptimization (SWAO) with detailed comments
 def SineWaveAugmentedOptimization(iterations, population_size=15):
     # Initialize population and other code here...
-\`\`\`
+
 
 
 ## How To Use
